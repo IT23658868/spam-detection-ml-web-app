@@ -26,6 +26,30 @@ Dataset: SMS Spam Collection Dataset (UCI)
 
 Accuracy: ~97–98%
 
+📊 Model Evaluation Results
+📈 Learning Curve
+
+This graph shows that both training and validation accuracy are high and converge closely, indicating that the model is well-fitted (no underfitting or overfitting).
+
+🔢 Confusion Matrix
+
+The confusion matrix shows that the model correctly classifies most spam and non-spam messages, with very few false negatives and almost no false positives.
+
+🎯 Precision vs Recall
+
+Precision ≈ 100% → Almost no normal messages are incorrectly marked as spam
+
+Recall ≈ 94% → Most spam messages are successfully detected
+
+🖥️ Application Working Screenshots
+✅ Non-Spam Message Detection
+
+The application correctly identifies a normal message as Not Spam.
+
+🚨 Spam Message Detection
+
+The application correctly identifies a promotional message as Spam.
+
 🏗️ Project Architecture
 Frontend (React + Tailwind)
         ↓ HTTP (JSON)
